@@ -6,6 +6,16 @@ Difficulty: Easy
 Classification: Official
 
 ----------------------------
+- customer support form, which is found to be vulnerable to blind Cross-Site Scripting (XSS) via the User-Agent header. This vulnerability is leveraged to steal an admin cookie, which is then used to access the administrator dashboard.
+
+- Enumerating the user’s mail reveals a script that does not use absolute paths, which is
+leveraged to get a shell as root.
+
+
+
+
+
+-------------------
 
 Python Werkzeug: 
 Werkzeug is a comprehensive WSGI (Web Server Gateway Interface) utility library for Python. It's a part of the Pallets project, which also includes Flask, Jinja, and other popular Python web development tools. Werkzeug is essential in building web applications as it provides a set of tools to handle the low-level details of web server interaction, such as request and response objects, URL routing, and HTTP utilities.
